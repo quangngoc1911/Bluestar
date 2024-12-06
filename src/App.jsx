@@ -15,7 +15,7 @@ function App() {
       </div>
          <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <a className="navbar-brand logo-image" href="index.html">
-          <img src="../public/images/logo.jpg" alt="alternative"
+          <img src="../images/logo.jpg" alt="alternative"
             style={{ width: '230px', height: '80px' }} /></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-awesome fas fa-bars"></span>
