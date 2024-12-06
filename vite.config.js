@@ -8,4 +8,13 @@ export default defineConfig({
     port: 3000, // Bạn có thể chọn cổng, ví dụ: 3000
     open: true, // Tự động mở trình duyệt khi server khởi chạy (tùy chọn)
   },
+  build: {
+    outDir: "dist", // Thư mục đầu ra cho bản build
+    assetsDir: "assets", // Đảm bảo các tài nguyên như CSS và JS được lưu đúng chỗ
+  },
+  resolve: {
+    alias: {
+      "@": "/src", // Alias để đơn giản hóa việc nhập (import) các file từ thư mục src
+    },
+  },
 });
