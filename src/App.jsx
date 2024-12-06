@@ -62,13 +62,13 @@ function App() {
             </ul>
             <span className="nav-item social-icons">
                 <span className="fa-stack">
-                    <a href="#your-link">
+                    <a href="https://www.facebook.com/" target='_blank'>
                         <i className="fas fa-circle fa-stack-2x facebook"></i>
                         <i className="fab fa-facebook-f fa-stack-1x"></i>
                     </a>
                 </span>
                 <span className="fa-stack">
-                    <a href="#your-link">
+                    <a href="https://x.com/" target='_blank'>
                         <i className="fas fa-circle fa-stack-2x twitter"></i>
                         <i className="fab fa-twitter fa-stack-1x"></i>
                     </a>
