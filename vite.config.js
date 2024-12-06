@@ -9,11 +9,6 @@ export default defineConfig({
     open: true, // Tự động mở trình duyệt khi server khởi chạy (tùy chọn)
   },
   build: {
-    outDir: "dist", // Thư mục đầu ra cho bản build
-    assetsDir: "assets", // Đảm bảo các tài nguyên như CSS và JS được lưu đúng chỗ
-    rollupOptions: {
-      external: ["jquery", "bootstrap"], // Thêm jQuery vào đây
-    },
     src: "index.html",
     use: "@vercel/static-build",
     config: { distDir: "dist" },
