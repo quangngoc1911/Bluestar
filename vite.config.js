@@ -12,7 +12,7 @@ export default defineConfig({
     outDir: "dist", // Thư mục đầu ra cho bản build
     assetsDir: "assets", // Đảm bảo các tài nguyên như CSS và JS được lưu đúng chỗ
     rollupOptions: {
-      external: ["jquery"], // Thêm jQuery vào đây
+      external: ["jquery", "bootstrap"], // Thêm jQuery vào đây
     },
     src: "index.html",
     use: "@vercel/static-build",
