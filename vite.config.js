@@ -8,14 +8,4 @@ export default defineConfig({
     port: 3000, // Bạn có thể chọn cổng, ví dụ: 3000
     open: true, // Tự động mở trình duyệt khi server khởi chạy (tùy chọn)
   },
-  build: {
-    src: "index.html",
-    use: "@vercel/static-build",
-    config: { distDir: "dist" },
-  },
-  resolve: {
-    alias: {
-      "@": "/src", // Alias để đơn giản hóa việc nhập (import) các file từ thư mục src
-    },
-  },
 });
